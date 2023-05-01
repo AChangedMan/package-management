@@ -18,6 +18,7 @@
 
 ``` sh
 sudo hostnamectl set-hostname ci
+sudo -su ec2-user
 sudo yum -y install unzip wget tree git
 sudo yum install java-11-openjdk -y
 ```
