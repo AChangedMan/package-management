@@ -28,6 +28,7 @@ sudo yum install wget unzip -y
 ### Download and extract the tomcat server
 ``` sh
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10.zip
+sudo unzip apache-tomcat-10.1.10.zip
 sudo tar -xvf apache-tomcat-10.1.10.zip
 sudo rm -rf apache-tomcat-10.1.10.zip
 ### rename tomcat for good naming convention
